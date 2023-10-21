@@ -1,0 +1,41 @@
+// MaterialApp(
+//       home: SafeArea(
+//         child: Scaffold(
+//             backgroundColor: Color.fromARGB(255, 7, 234, 255),
+//             appBar: AppBar(
+//               title: Text("My Galary"),
+//             ),
+//             body: GridView.count(
+//               padding: const EdgeInsets.all(10),
+//               crossAxisCount: 3,
+//               mainAxisSpacing: 20,
+//               crossAxisSpacing: 20,
+//               children: List.generate(6, (index) {
+//                 return Column(
+//                   children: [
+//                     Container(
+//                       // color: Colors.teal[600],
+//                       child: Image(
+//                         alignment: Alignment.bottomCenter,
+//                         image: AssetImage(
+//                             'lib/assets/' + (index + 1).toString() + '.jpg'),
+//                         width: 350,
+//                         height: 90,
+//                       ),
+//                     ),
+//                     Center(
+//                         child: Text(
+//                       "Welcome",
+//                       style: TextStyle(
+//                         fontSize: 10,
+//                         color: Color.fromARGB(255, 3, 108, 103),
+//                       ),
+//                     )),
+//                   ],
+//                 );
+//               }),
+//             )
+//             // Center(child: Text("Welcome", style: TextStyle(fontSize: 28, color: Colors.black,),)),
+//             ),
+//       ),
+//     )
